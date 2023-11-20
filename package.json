@@ -1,0 +1,19 @@
+{
+  "name": "polar-vis-plugin",
+  "version": "0.14.0",
+  "description": "Visualize polar charts",
+  "authors": [
+    "David Moreno Lumbreras <dmorenolumb@gmail.com>",
+    "Eva Millán <evamillan@bitergia.com>"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "yarn plugin-helpers build",
+    "plugin-helpers": "node ../../scripts/plugin_helpers",
+    "osd": "node ../../scripts/osd"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "react-chartjs-2": "^2.11.2"
+  }
+}
